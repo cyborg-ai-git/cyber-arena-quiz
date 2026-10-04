@@ -3,8 +3,8 @@
 <link rel="icon" href="/cyber-arena-quiz/logo-a7d16afd66afaed1.png" integrity="sha384-VV1bKc06k1QNb7Au2tHEt2jIdcAOQ1HQJjE3mElMZMfcKckn/UM1EEirivCdiJd1"/>
 
 <script type="module">
-import init, * as bindings from '/cyber-arena-quiz/app_quiz_client-edefc5ad8ea7414e.js';
-const wasm = await init({ module_or_path: '/cyber-arena-quiz/app_quiz_client-edefc5ad8ea7414e_bg.wasm' });
+import init, * as bindings from '/cyber-arena-quiz/app_quiz_client-5fee262083bb265c.js';
+const wasm = await init({ module_or_path: '/cyber-arena-quiz/app_quiz_client-5fee262083bb265c_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -14,4 +14,4 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script><style>
 html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#0b1019;color:#edf2f7;font-family:monospace}canvas{width:100%;height:100%;display:block}#loading{position:absolute;inset:40% 8%;text-align:center;color:#9fef00;line-height:2}
-</style><link rel="modulepreload" href="/cyber-arena-quiz/app_quiz_client-edefc5ad8ea7414e.js" crossorigin="anonymous" integrity="sha384-qXYo8VPKm1rOCqxn6BJ8nxGAgCvndUUmwHDZ9INviE6mczbmkvu/dnhvYyNgHov7"><link rel="preload" href="/cyber-arena-quiz/app_quiz_client-edefc5ad8ea7414e_bg.wasm" crossorigin="anonymous" integrity="sha384-5QWJLIF1LdVM9GTBJZ9oZ/p1eOUoSYpEbnIieAbtXnIocPq0MV/mIZqXZYVOVOQ2" as="fetch" type="application/wasm"></head><body><canvas id="arena_canvas" aria-label="Cyber Arena / Quiz"></canvas><div id="loading">[ CYBER ARENA ]<br>Inizializzazione ambiente…</div><noscript>Abilita JavaScript per avviare il modulo WebAssembly.</noscript></body></html>
+</style><link rel="modulepreload" href="/cyber-arena-quiz/app_quiz_client-5fee262083bb265c.js" crossorigin="anonymous" integrity="sha384-rfe4rUh4DrMuuivEunm2wR/sazDw0r1eVmSs0nk8Q+lAOp/HQ9txp6Cwn4B5P/ac"><link rel="preload" href="/cyber-arena-quiz/app_quiz_client-5fee262083bb265c_bg.wasm" crossorigin="anonymous" integrity="sha384-x4XviVH7NsR/IgWfCh55QpjRLM/Q8QKjlN1TSoYaRPEl9kbPg8Y2xYa7pXnppqiu" as="fetch" type="application/wasm"></head><body><canvas id="arena_canvas" aria-label="Cyber Arena / Quiz"></canvas><div id="loading">[ CYBER ARENA ]<br>Inizializzazione ambiente…</div><noscript>Abilita JavaScript per avviare il modulo WebAssembly.</noscript></body></html>
