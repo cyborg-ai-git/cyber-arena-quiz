@@ -37,11 +37,11 @@ export default function initializer() {
         },
         onProgress({ current, total }) {
             if (!total) {
-                showProgress(0, `Scaricamento… ${formatBytes(current)}`);
+                showProgress(0, `Download… ${formatBytes(current)}`);
                 return;
             }
             showProgress(current / total * downloadMax,
-                `Scaricamento… ${formatBytes(current)} / ${formatBytes(total)}`);
+                `Download… ${formatBytes(current)} / ${formatBytes(total)}`);
         },
         onComplete() {
             showProgress(downloadMax, 'Preparazione del modulo…');
